@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
+    <title>Piatto Pieno Pizarria</title>
+</head>
+<body>
+    <header class="cabeçalho">
+        <nav class="cabeçalho-menu">
+            <ul>
+                <li>
+                    <a href="http://127.0.0.1:5500/home.html"><img class="cabeçalho-imagem" src="./assets/images/Logotipo.svg" alt="Logotipo Piatto Pieno"></a>
+                </li>
+                <li>
+                    <a href="sobreNos.html" class="cabeçalho-menu-item">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="sabores.html" class="cabeçalho-menu-item">Sabores</a>
+                </li>
+                <li>
+                    <a href="promocoes.html" class="cabeçalho-menu-item">Promoções</a>
+                </li>
+                <li>
+                    <a href="delivery.html" class="cabeçalho-menu-item">Encomende aqui</a>
+                </li>
+                <li>
+                    <a class="cabeçalho-menu-item">Calcule seu frete</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<body>
+<h1 class="titulo">Delivery</h1>
+
+    <div class="container3">
+      <div class="header">
+        <p class="bateuafome">Bateu a fome?</p>
+        <p class="pededelivery">Pede um delivery!</p>
+      </div>
+
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="username">Nome</label>
+          <input type="text" id="username" name="username" placeholder="Digite seu nome completo..."/>
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+            <label for="telefone">Telefone</label>
+            <input type="number" id="telefone" name="telefone" placeholder="Digite seu telefone de contato..." />
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de erro</small>
+            </div>
+
+        <div class="form-control">
+            <label for="endereço">Endereço</label>
+            <input type="text" id="endereço" name="endereço" placeholder="Digite seu endereço..." />
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Digite seu email..." />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+            <label for="tamanho">Tamanho da pizza</label>
+            <select name="tamanho" class="selecione" required>
+                <option selected disabled value=""></option>
+                <option value="pequena">Pequena</option>
+                <option value="media">Média</option>
+                <option value="familia">Família</option>
+              </select>
+        </div>
+
+        <div class="form-control">
+            <label for="sabores">Sabores</label>
+            <input type="text" id="sabores" name="sabores" placeholder="Digite os sabores desejados..." />
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de erro</small>
+        </div>
+        
+        <div class="form-control">
+            <label for="pagamento">Forma de pagamento</label>
+            <select name="pagamento" class="selecione" required>
+                <option selected disabled value=""></option>
+                <option value="dinheiro">Dinheiro</option>
+                <option value="pix">Pix</option>
+                <option value="cartao">Cartão</option></select>
+        </div>
+        <div class="form-control">
+            <label for="pagamento">Alguma observação?</label>
+            <input type="text" id="sabores"  placeholder="Digite aqui a sua observação..." style="height: 100px;" />
+        </div>
+        <button type="submit" onclick="checkInputs()">Enviar o pedido!</button>
+      </form>
+    </div>
+    <br>
+
+
+</body>
+</html>
