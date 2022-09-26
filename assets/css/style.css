@@ -77,24 +77,39 @@ header nav ul li a{
     background: rgba(0, 0, 0, 0.25);
     box-shadow: 2px 5px 6px 20px rgba(0, 0, 0, 0.25);
 }
-.tamanhos-escrito{
-    line-height: 3;
-    margin-left: 50px;
-    margin-top: 10px;
-    text-align: center;
+.tamanhos-escrito-titulo{
+  line-height: 3;
+  margin-left: 50px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 28px;
 }
+.tamanhos-escrito{
+  line-height: 3;
+  margin-left: 50px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+.align-tamanho{
+  align-items: center;
+  margin-right: 70px;
+}
+
 .pmf{
-    display: flex;
-    margin-right: 20px;
+  display: flex;
 }
 .p{
-    width: 160px;
+  margin-top: 80px;
+  width: 160px;
 }
 .m{
-    width: 220px;
+  margin-top: 40px;
+  width: 220px;
 }
 .f{
-    width: 280px;
+  margin-top: 10px;
+  width: 280px;
 }
 .sabores-home{
     display: inline-flex;
@@ -281,6 +296,7 @@ header nav ul li a{
     margin-bottom: 100px;
     align-items: center;
     border-style: none;
+    
 }
 .horarios{
     font-size: 20px;
@@ -299,7 +315,7 @@ header nav ul li a{
 }
 .maps{
     display: flex;
-    margin-left: 10%;
+    margin-left: 12%;
     margin-top: 15px;
     width: 950px;
     height: 350px;
